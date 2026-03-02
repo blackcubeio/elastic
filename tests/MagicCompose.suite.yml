@@ -1,0 +1,4 @@
+actor: MagicComposeTester
+modules:
+    enabled:
+        - Asserts

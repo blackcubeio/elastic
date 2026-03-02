@@ -1,0 +1,10 @@
+/.gitignore       export-ignore
+/.gitattributes   export-ignore
+/.env             export-ignore
+/.DS_Store        export-ignore
+/tests            export-ignore
+/codeception.yml  export-ignore
+/composer.lock    export-ignore
+/yii              export-ignore
+/BLACKCUBE_WARNING.md export-ignore
+/CHANGELOG.md     export-ignore

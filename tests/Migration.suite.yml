@@ -1,0 +1,4 @@
+actor: MigrationTester
+modules:
+    enabled:
+        - Asserts

@@ -1,0 +1,4 @@
+actor: ElasticSchemaTester
+modules:
+    enabled:
+        - Asserts

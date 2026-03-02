@@ -1,0 +1,4 @@
+actor: ElasticTraitTester
+modules:
+    enabled:
+        - Asserts

@@ -1,0 +1,4 @@
+actor: CombinedTraitsTester
+modules:
+    enabled:
+        - Asserts

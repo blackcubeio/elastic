@@ -1,0 +1,73 @@
+{
+    "name": "blackcube/elastic",
+    "description": "Dynamic model attributes from JSON Schema — EAV without the pain",
+    "keywords": [
+        "yii3",
+        "active-record",
+        "elastic",
+        "json-schema",
+        "dynamic-model",
+        "dynamic-attributes",
+        "virtual-columns",
+        "eav",
+        "json",
+        "schema-validation"
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "readme": "README.md",
+    "homepage": "https://github.com/blackcubeio/elastic",
+    "support": {
+        "issues": "https://github.com/blackcubeio/elastic/issues",
+        "source": "https://github.com/blackcubeio/elastic"
+    },
+    "authors": [
+        {
+            "name": "Philippe Gaultier",
+            "email": "philippe@blackcube.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.3",
+        "ext-intl": "*",
+        "blackcube/magic-compose": "^1.0",
+        "yiisoft/active-record": "^1.0",
+        "yiisoft/db": "^2.0",
+        "yiisoft/validator": "^2.5",
+        "swaggest/json-schema": "^0.12.43"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.3",
+        "codeception/module-asserts": "^3.3",
+        "codeception/module-db": "^3.2",
+        "vlucas/phpdotenv": "^5.6",
+        "yiisoft/db-migration": "^2.0",
+        "yiisoft/db-mysql": "^2.0",
+        "yiisoft/cache-file": "^3.2",
+        "yiisoft/di": "^1.4",
+        "yiisoft/event-dispatcher": "^1.1",
+        "yiisoft/factory": "^1.3",
+        "yiisoft/test-support": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blackcube\\Elastic\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Blackcube\\Elastic\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-devel": "1.x-dev"
+        },
+        "config-plugin-file": "config/configuration.php"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

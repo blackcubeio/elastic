@@ -1,0 +1,4 @@
+actor: ValidatorTester
+modules:
+    enabled:
+        - Asserts
